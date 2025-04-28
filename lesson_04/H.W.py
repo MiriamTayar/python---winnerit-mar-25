@@ -4,7 +4,7 @@
 # # תרגיל 1
 # x1 = float(input("Enter first point: "))
 # x2 = float(input("Enter second point: "))
-# print(f"The dis is: {x1 - x2}")
+# print(f"The dis is: {abs(x1 - x2)}")
 
 # תרגיל 2
 # grams = int(input("Enter the amount in grams: "))
@@ -17,4 +17,4 @@
 
 # תרגיל 4
 num = int(input("Enter number: "))
-print("The units digit is: " + str(num%10))
+print(f"The units digit is: {num%10}")
