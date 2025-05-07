@@ -65,25 +65,25 @@ from calendar import month
 #             max_num = num
 #
 #     return max_num
-
-
+#
+#
 # print(f"The max number is: {fine_max(3,7,2,8,10,4)}")
 # print(fine_max())
 
 
 # תרגיל 6
-def calculate_average (*args):
-    if not args:
-        return 0
-    sum_of_numbers = 0
-    for num in args[0:]:
-        sum_of_numbers += num
-    average = sum_of_numbers/len(args)
-    return int(average)
-
-
-print(f"The average is: {calculate_average (10,20,30,40,50)}")
-# print(calculate_average())
+# def calculate_average (*args):
+#     if not args:
+#         return "List is empty."
+#     sum_of_numbers = 0
+#     for num in args[0:]:
+#         sum_of_numbers += num
+#     average = sum_of_numbers/len(args)
+#     return int(average)
+#
+#
+# print(f"The average is: {calculate_average (10,20,30,40,50)}")
+# # print(calculate_average())
 
 
 
