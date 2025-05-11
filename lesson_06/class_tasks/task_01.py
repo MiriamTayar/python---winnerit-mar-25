@@ -7,7 +7,10 @@ def work_with_list(list_of_nums: list[int]):
             new_list.append(num)
     return new_list
 
-print(work_with_list(nums_to_filter))
+# print(work_with_list(nums_to_filter))
 
 
 # filter function
+
+even = list(filter(lambda x: x % 2 == 0, nums_to_filter))
+print(even)

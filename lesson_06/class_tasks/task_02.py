@@ -1,3 +1,5 @@
+from typing import Any
+
 nums_to_filter = [60, 80, 90, 100, 50, 45, 78, 90, 95, 70, 61, 30]
 
 def work_with_list(list_of_nums: list[int]):
@@ -10,3 +12,6 @@ def work_with_list(list_of_nums: list[int]):
 print(work_with_list(nums_to_filter))
 
 # list comprehension
+
+even_numbers = [x for x in nums_to_filter if x%2 == 0]
+print(even_numbers)
