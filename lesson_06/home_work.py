@@ -58,8 +58,6 @@ print(f"New salary: {e.salary}")
 print(f"New role: {e.role}")
 
 #ניסיון הכנסת ערך שלילי
-# e.salary = -4000
-
 try:
     e.salary = -1000
 except ValueError as e:
